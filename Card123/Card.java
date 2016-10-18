@@ -11,6 +11,10 @@ public class Card {
     return spelling;
   }
 
+  public int getValue() {
+    return value;
+  }
+
   public String toString() {
     return value + " " + spelling;
   }
